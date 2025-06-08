@@ -46,7 +46,7 @@ npm i localtunnel
 npm i -g localtunnel                     # 로컬 서버를 외부에서 접속 가능하게 함
 ```
 
-🛠 기술 스택
+##🛠 기술 스택
 Node.js + Express: 백엔드 서버
 
 Pug: 템플릿 엔진
@@ -57,13 +57,13 @@ WebRTC: P2P 영상 및 오디오 통신
 
 LocalTunnel: 외부 접속 테스트용
 
-🧠 핵심 개념
+## 🧠 핵심 개념
 🔁 HTTP vs WebSocket
 HTTP는 Stateless하며 서버는 클라이언트를 기억하지 못함.
 
 WebSocket은 양방향 지속 연결을 유지하여 서버도 클라이언트에게 메시지를 보낼 수 있음.
 
-🧩 Socket.io
+## 🧩 Socket.io
 WebSocket 기반 실시간 프레임워크.
 
 브라우저가 WebSocket을 지원하지 않아도 폴백 제공.
